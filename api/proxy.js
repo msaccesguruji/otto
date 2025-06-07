@@ -98,7 +98,6 @@ module.exports = async (req, res) => {
         success: true,
         status: apiResponse.status,
         statusText: apiResponse.statusText,
-        headers: responseHeaders,
         data: responseData,
       })
     } catch (error) {
